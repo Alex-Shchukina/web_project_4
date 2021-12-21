@@ -4,4 +4,7 @@
   font-style: normal;
   line-height: 29.05px;
   color: #000000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
