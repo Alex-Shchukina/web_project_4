@@ -1,0 +1,9 @@
+.gallery {
+  max-width: 880px;
+  max-height: 743px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 67px;
+}

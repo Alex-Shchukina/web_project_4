@@ -1,0 +1,6 @@
+.gallery__card-heading {
+  max-width: 246px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
