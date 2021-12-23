@@ -1,7 +1,6 @@
 .header__content {
   max-width: 880px;
   margin: auto;
-  border-top: none;
   border-bottom: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgba(84, 84, 84, 0.7);
