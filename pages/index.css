@@ -18,5 +18,6 @@
 @import url(../blocks/gallery/__card-heading/gallery__card-heading.css);
 @import url(../blocks/gallery/__place-name/gallery__place-name.css);
 @import url(../blocks/gallery/__like-button/gallery__like-button.css);
+@import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

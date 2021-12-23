@@ -13,119 +13,142 @@
           <img class="logo" src="images/logo/Logo.svg" alt="Around US Logo" />
         </div>
       </header>
-      <section class="profile">
-        <div class="profile__info">
-          <img
-            class="profile__image"
-            src="./images/Avatar.jpg"
-            alt="Profile image"
-          />
-          <div class="profile__text">
-            <div class="profile__heading">
-              <h1 class="profile__name">Jacques Cousteau</h1>
-              <img
-                class="profile__edit-button"
-                src="images/Edit Button.svg"
-                alt="Profile edit button"
-              />
+      <main class="content">
+        <section class="profile">
+          <div class="profile__info">
+            <img
+              class="profile__image"
+              src="./images/Avatar.jpg"
+              alt="Profile image"
+            />
+            <div class="profile__text">
+              <div class="profile__heading">
+                <h1 class="profile__name">Jacques Cousteau</h1>
+                <img
+                  class="profile__edit-button"
+                  src="images/Edit Button.svg"
+                  alt="Profile edit button"
+                />
+              </div>
+              <p class="profile__occupation">Explorer</p>
             </div>
-            <p class="profile__occupation">Explorer</p>
+          </div>
+          <img
+            class="profile__add-button"
+            src="images/Add Button.svg"
+            alt="Profile add button"
+          />
+        </section>
+        <section class="gallery">
+          <ul class="gallery__cards">
+            <li class="gallery__card">
+              <img
+                class="gallery__image"
+                src="./images/Yosemite Valley.jpg"
+                alt="Yosemite Valley"
+              />
+              <div class="gallery__card-heading">
+                <h2 class="gallery__place-name">Yosemite Valley</h2>
+                <button
+                  type="button"
+                  class="gallery__like-button gallery__like-button_active"
+                ></button>
+              </div>
+            </li>
+            <li class="gallery__card">
+              <img
+                class="gallery__image"
+                src="./images/Lake Louise.jpg"
+                alt="Lake Louise"
+              />
+              <div class="gallery__card-heading">
+                <h2 class="gallery__place-name">Lake Louise</h2>
+                <button
+                  type="button"
+                  class="gallery__like-button gallery__like-button_active"
+                ></button>
+              </div>
+            </li>
+            <li class="gallery__card">
+              <img
+                class="gallery__image"
+                src="./images/Bald Mountains.jpg"
+                alt="Bald Mountains"
+              />
+              <div class="gallery__card-heading">
+                <h2 class="gallery__place-name">Bald Mountains</h2>
+                <button
+                  type="button"
+                  class="gallery__like-button gallery__like-button_active"
+                ></button>
+              </div>
+            </li>
+            <li class="gallery__card">
+              <img
+                class="gallery__image"
+                src="./images/Latemar.jpg"
+                alt="Latemar"
+              />
+              <div class="gallery__card-heading">
+                <h2 class="gallery__place-name">Latemar</h2>
+                <button
+                  type="button"
+                  class="gallery__like-button gallery__like-button_active"
+                ></button>
+              </div>
+            </li>
+            <li class="gallery__card">
+              <img
+                class="gallery__image"
+                src="./images/Vanoise National.jpg"
+                alt="Vanoise National Park"
+              />
+              <div class="gallery__card-heading">
+                <h2 class="gallery__place-name">Vanoise National Park</h2>
+                <button
+                  type="button"
+                  class="gallery__like-button gallery__like-button_active"
+                ></button>
+              </div>
+            </li>
+            <li class="gallery__card">
+              <img
+                class="gallery__image"
+                src="./images/Lago di Braies.jpg"
+                alt="Lago di Braies"
+              />
+              <div class="gallery__card-heading">
+                <h2 class="gallery__place-name">Lago di Braies</h2>
+                <button
+                  type="button"
+                  class="gallery__like-button gallery__like-button_active"
+                ></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="popup">
+          <div class="popup__content">
+            <button type="button" class="popup__close-button"></button>
+            <h2 class="popup__heading">Edit profile</h2>
+            <form class="popup__form">
+              <input
+                type="text"
+                class="popup__name"
+                value="Jacques Cousteau"
+                placeholder="Name"
+              />
+              <input
+                type="text"
+                class="popup__about"
+                value="Explorer"
+                placeholder="About me"
+              />
+              <button type="submit" class="popup__submit-button">Save</button>
+            </form>
           </div>
         </div>
-        <img
-          class="profile__add-button"
-          src="images/Add Button.svg"
-          alt="Profile add button"
-        />
-      </section>
-      <section class="gallery">
-        <ul class="gallery__cards">
-          <li class="gallery__card">
-            <img
-              class="gallery__image"
-              src="./images/Yosemite Valley.jpg"
-              alt="Yosemite Valley"
-            />
-            <div class="gallery__card-heading">
-              <h2 class="gallery__place-name">Yosemite Valley</h2>
-              <button
-                type="button"
-                class="gallery__like-button gallery__like-button_active"
-              ></button>
-            </div>
-          </li>
-          <li class="gallery__card">
-            <img
-              class="gallery__image"
-              src="./images/Lake Louise.jpg"
-              alt="Lake Louise"
-            />
-            <div class="gallery__card-heading">
-              <h2 class="gallery__place-name">Lake Louise</h2>
-              <button
-                type="button"
-                class="gallery__like-button gallery__like-button_active"
-              ></button>
-            </div>
-          </li>
-          <li class="gallery__card">
-            <img
-              class="gallery__image"
-              src="./images/Bald Mountains.jpg"
-              alt="Bald Mountains"
-            />
-            <div class="gallery__card-heading">
-              <h2 class="gallery__place-name">Bald Mountains</h2>
-              <button
-                type="button"
-                class="gallery__like-button gallery__like-button_active"
-              ></button>
-            </div>
-          </li>
-          <li class="gallery__card">
-            <img
-              class="gallery__image"
-              src="./images/Latemar.jpg"
-              alt="Latemar"
-            />
-            <div class="gallery__card-heading">
-              <h2 class="gallery__place-name">Latemar</h2>
-              <button
-                type="button"
-                class="gallery__like-button gallery__like-button_active"
-              ></button>
-            </div>
-          </li>
-          <li class="gallery__card">
-            <img
-              class="gallery__image"
-              src="./images/Vanoise National.jpg"
-              alt="Vanoise National Park"
-            />
-            <div class="gallery__card-heading">
-              <h2 class="gallery__place-name">Vanoise National Park</h2>
-              <button
-                type="button"
-                class="gallery__like-button gallery__like-button_active"
-              ></button>
-            </div>
-          </li>
-          <li class="gallery__card">
-            <img
-              class="gallery__image"
-              src="./images/Lago di Braies.jpg"
-              alt="Lago di Braies"
-            />
-            <div class="gallery__card-heading">
-              <h2 class="gallery__place-name">Lago di Braies</h2>
-              <button
-                type="button"
-                class="gallery__like-button gallery__like-button_active"
-              ></button>
-            </div>
-          </li>
-        </ul>
-      </section>
+      </main>
       <footer class="footer">
         <p class="footer__copyright">© 2021 Around The U.S.</p>
       </footer>

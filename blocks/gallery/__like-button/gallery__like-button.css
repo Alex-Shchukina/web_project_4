@@ -8,3 +8,7 @@
   min-height: 19px;
   align-self: center;
 }
+
+.gallery__like-button:active {
+  background-image: url("../../../images/Like-button_active.svg");
+}
