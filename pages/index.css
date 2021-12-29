@@ -18,6 +18,14 @@
 @import url(../blocks/gallery/__card-heading/gallery__card-heading.css);
 @import url(../blocks/gallery/__place-name/gallery__place-name.css);
 @import url(../blocks/gallery/__like-button/gallery__like-button.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__edit-info/popup__edit-info.css);
+@import url(../blocks/popup/__heading/popup__heading.css);
 @import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__name/popup__name.css);
+@import url(../blocks/popup/__about/popup__about.css);
+@import url(../blocks/popup/__submit-button/popup__submit-button.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

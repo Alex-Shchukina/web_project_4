@@ -1,0 +1,16 @@
+.popup__edit-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 430px;
+  min-height: 330px;
+  background-color: white;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 650px) {
+  .popup__edit-info {
+    min-width: 282px;
+    min-height: 322px;
+  }
+}

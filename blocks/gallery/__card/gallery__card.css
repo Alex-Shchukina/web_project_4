@@ -10,3 +10,9 @@
 .gallery__card:nth-child(n + 4) {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .gallery__card:nth-child(n + 4) {
+    margin-bottom: 20px;
+  }
+}

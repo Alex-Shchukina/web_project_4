@@ -6,7 +6,7 @@
   margin: 16px 0 0 0;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 850px) {
   .profile__occupation {
     margin: 14px 0 36px 0;
   }

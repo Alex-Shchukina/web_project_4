@@ -1,10 +1,22 @@
 .gallery__cards {
   max-width: 880px;
-  max-height: 743px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: auto;
-  padding-bottom: 67px;
+  padding: 0 0 67px 0;
   list-style: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .gallery__cards {
+    max-width: 581px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery__cards {
+    max-width: 282px;
+    padding: 0 0 50px 0;
+  }
 }
