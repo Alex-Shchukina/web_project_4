@@ -2,12 +2,16 @@
   min-width: 24px;
   min-height: 24px;
   margin-left: 18px;
-  background-image: url("../../../images/Edit Button.svg");
+  background-image: url("../../../images/Edit-Button.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
   border: none;
   padding: 0;
+}
+
+.profile__edit-button:hover {
+  background-image: url("../../../images/Edit-Button-Hovered.svg");
 }
 
 @media screen and (max-width: 400px) {

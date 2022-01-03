@@ -7,6 +7,11 @@
   min-width: 21px;
   min-height: 19px;
   align-self: center;
+  cursor: pointer;
+}
+
+.gallery__like-button:hover {
+  background-image: url("../../../images/Heart-Hovered.svg");
 }
 
 .gallery__like-button:active {

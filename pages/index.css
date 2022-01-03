@@ -19,7 +19,7 @@
 @import url(../blocks/gallery/__place-name/gallery__place-name.css);
 @import url(../blocks/gallery/__like-button/gallery__like-button.css);
 @import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/_popup_opened/popup_opened.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__content/popup__content.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/__edit-info/popup__edit-info.css);

@@ -10,6 +10,11 @@
   margin-left: 430px;
   rotate: 90deg;
   margin-top: 0;
+  cursor: pointer;
+}
+
+.popup__close-button:hover {
+  background-image: url("../../../images/Close-Icon-hovered.svg");
 }
 
 @media screen and (max-width: 650px) {
