@@ -5,14 +5,23 @@
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 20px;
+  margin-right: 17px;
 }
 
-.gallery__card:nth-child(n + 4) {
-  margin-bottom: 0;
+@media screen and (min-width: 1001px) {
+  .gallery__card:nth-child(3n) {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-  .gallery__card:nth-child(n + 4) {
-    margin-bottom: 20px;
+  .gallery__card:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery__card {
+    margin-right: 0;
   }
 }
