@@ -3,8 +3,8 @@ let popupBox = document.querySelector(".popup");
 let popupOpenButton = document.querySelector(".profile__edit-button");
 let userNameInfo = document.querySelector(".profile__name");
 let userOccupationInfo = document.querySelector(".profile__occupation");
-let inputName = document.querySelector(".popup__name");
-let inputOccupation = document.querySelector(".popup__about");
+let inputName = document.querySelector(".popup__input_type_name");
+let inputOccupation = document.querySelector(".popup__input_type_about");
 let formElement = document.querySelector(".popup__form");
 
 function openPopupBox() {
